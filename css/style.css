@@ -5,6 +5,7 @@
 /*////////// Global Styles //////////*/
 
 body {
+	text-align: center;
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
@@ -18,3 +19,89 @@ body {
 }
 
 /* Write all remaining styles here */
+ 
+h1 a {
+ color: rgb(152, 173, 166);
+ text-align: left;
+ font-size: 2.5em;
+ font-weight: bold;
+ font-family: 'Times New Roman', Times, serif;
+ margin: 0 0 5px;
+ text-decoration: none;
+}
+ header {
+	text-align: left;
+ }
+
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+	text-align: left;
+}
+
+ #productfeature{
+	display: block;
+	text-align: left;
+ }
+
+	#productfeature img{
+		border: 5px rgb(152, 173, 166) solid;
+	
+ 	}
+ 
+	p {
+	display: block;
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+
+	}
+
+	p {
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
+
+	p a {
+		color: #1783bb;
+		text-decoration: none;
+	}
+
+	#press {
+		margin-bottom: 20px;
+	}
+
+	footer .small {
+		font-size: 0.8em;
+		text-align: right;
+	}
+
+	#press img{
+		border: 5px #ccc solid;
+		padding: 1px;
+	}
+
+
+
+   h2{
+	transition: text 0.5s ease;
+	
+   }
+
+   h2:hover{
+	background:green;
+	padding: 1px 0 1px 0;
+	cursor: pointer;
+   }
+
+   #text2{
+	width: 3em;
+   }
+
+   #text3 {
+	width: 3em;
+   }
